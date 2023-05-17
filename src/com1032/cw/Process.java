@@ -56,20 +56,6 @@ public class Process {
 		return pid;
 	}
 
-	/**
-	 * A method to remove a segment from the process' table by accessing the
-	 * {@link com1032.cw.SegmentTable#removeSegment(Segment)} method.
-	 * 
-	 * @param segment The segment to be removed.
-	 * @throws IllegalArgumentException If the segment is invalid.
-	 */
-	public void removeSegment(Segment segment) throws IllegalArgumentException {
-		if (segment == null) {
-			throw new IllegalArgumentException("Segment is invalid.");
-		}
-		segmentTable.removeSegment(segment);
-	}
-
 	public SegmentTable getSegmentTable() {
 		return segmentTable;
 	}
