@@ -1,4 +1,4 @@
-package com1032.cw;
+package io.github.samiv;
 
 import java.util.ArrayList;
 
@@ -62,7 +62,7 @@ public class Process {
 
 	/**
 	 * A method to change a segment's permission by using
-	 * {@link com1032.cw.Segment#setPermissions(String)}.
+	 * {@link Segment#setPermissions(String)}.
 	 * 
 	 * @param segmentId      The SID of the segment in question.
 	 * @param newPermissions The new permissions to set.

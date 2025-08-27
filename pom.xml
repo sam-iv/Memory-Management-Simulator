@@ -2,10 +2,10 @@
 	xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>COM1032</groupId>
-	<artifactId>COM1032</artifactId>
+	<groupId>io.github.samiv</groupId>
+	<artifactId>Memory-Management-Simulator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>COM1032</name>
+	<name>Memory Management Simulator</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -20,6 +20,14 @@
 					<release>11</release>
 				</configuration>
 			</plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <mainClass>io.github.samiv.Main</mainClass>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 </project>

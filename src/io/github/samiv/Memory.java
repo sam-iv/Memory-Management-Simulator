@@ -1,4 +1,4 @@
-package com1032.cw;
+package io.github.samiv;
 
 import java.util.HashMap;
 import java.util.List;

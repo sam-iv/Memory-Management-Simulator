@@ -1,4 +1,4 @@
-package com1032.cw;
+package io.github.samiv;
 
 /**
  * A class to model a segment, for a process.
