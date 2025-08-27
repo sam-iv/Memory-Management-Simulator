@@ -1,6 +1,6 @@
 # Non-Contiguous Segmented Memory Manager Simulation
 
-This project is a Java-based simulation of a non-contiguous segmented memory manager, demonstrating key concepts of operating system memory management. It was developed as university coursework.
+This project is a Java-based simulation of a non-contiguous segmented memory manager, demonstrating key concepts of operating system memory management. It was developed as university coursework, and has since been archived.
 
 The simulation includes features like:
 *   **Segmentation:** Memory is divided into segments of varying sizes.
