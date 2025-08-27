@@ -2,6 +2,8 @@
 
 This project is a Java-based simulation of a non-contiguous segmented memory manager, demonstrating key concepts of operating system memory management. It was developed as university coursework, and has since been archived.
 
+The report for this coursework can be found [here](report.pdf)
+
 The simulation includes features like:
 *   **Segmentation:** Memory is divided into segments of varying sizes.
 *   **Non-Contiguous Allocation:** Segments of a process can be stored in different parts of memory.
